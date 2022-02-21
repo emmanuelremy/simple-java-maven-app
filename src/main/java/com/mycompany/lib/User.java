@@ -12,6 +12,6 @@ public class User {
     
     @Override
     public String toString() {
-        return String.format("Hello %s %s, tu as %d ans lol ", prenom, nom,age);
+        return String.format("Hello %s %s, tu as %d ans et en pleine forme", prenom, nom,age);
     }
 }
