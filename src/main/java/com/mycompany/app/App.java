@@ -16,13 +16,14 @@ public class App
 
     public App() {}
 
+    
     public static void main(String[] args) {
         System.out.println(new App().getMessage());
         Greeter greeter = new Greeter();
         Logger logger =System.getLogger(App.class.getName());
         logger.log(INFO, greeter.sayHello());
 
-        User me = new User("Manu", 53);
+        User me = new User("Remy", "Manu", 53);
         System.out.println(me);
     }
 
